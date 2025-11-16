@@ -22,7 +22,7 @@ final GoRouter router = GoRouter(
         return AddEditRecipePage(recipeId: id);
       },
     ),
-    GoRoute( // NUEVO
+    GoRoute( // NUEVO favoritos
       path: '/favorites', // NUEVO
       builder: (context, state) => const FavoritesPage(), // NUEVO
     ),
